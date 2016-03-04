@@ -8,3 +8,11 @@ and open the template in the editor.
     Author     : Raul
 */
 
+.soaFont{
+    font-family: SOA;
+}
+
+@font-face{
+    font-family: SOA;
+    src: url("../res/font/Carnevalee Freakshow.ttf");
+}

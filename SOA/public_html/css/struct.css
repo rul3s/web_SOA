@@ -26,6 +26,10 @@ header{
     width: 100%;
 }
 
+div#slideshow{
+    display: none;
+}
+
 nav{
     width: 100%;
 }
@@ -46,4 +50,68 @@ img{
 
 figure{
     text-align: center;
+}
+
+@media (min-width: 600px){
+    html{
+        width: 100%;
+    }
+
+    body{
+        margin: 0 auto;
+        width: 60%;
+        box-shadow: black 0 0 2vw;
+    }
+    
+    div#slideshow{
+        background: #ccc;
+        height: 30vw;
+        display: block;
+    }
+    
+    div#slideshow img{
+        height: 100%;
+        border: 0.5vw solid white;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    nav ul li:hover{
+        cursor: default;
+        background: #ccc;
+    }
+    
+    nav ul li:nth-child(1){
+        display: none;
+    }
+    
+    footer p{
+        font-size: 0.8em;
+        float:left;
+        width: 45%;
+    }
+    
+    footer p:nth-child(1){
+        margin:1vw;
+        margin-right: 0;
+        text-align: left;
+        float:left;
+    }
+    
+    footer p:nth-child(2){
+        margin:1vw;
+        margin-left: 0;
+        text-align: right;
+        float:right;
+    }
+    
+    footer a{
+        color: white;
+    }
+    footer hr{
+        clear: both;
+    }
 }

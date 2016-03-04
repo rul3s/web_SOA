@@ -1,4 +1,7 @@
-html, body{
+html{
+    background: white;
+}
+body{
     background: #000;
     color: #FFF;
 }
@@ -8,11 +11,7 @@ header figure{
 }
 
 header figure img{
-    width: 100%;
-}
-
-div#slideshow{
-    display: none;
+    width: 70%;
 }
 
 nav ul, nav li{
@@ -36,4 +35,9 @@ section figure img{
 section figure figcaption{
     font-style: italic;
     font-size: 1em;
+}
+
+footer{
+    background: #777;
+    text-align: center;
 }
