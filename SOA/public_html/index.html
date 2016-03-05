@@ -7,6 +7,7 @@
         <link href="css/struct.css" rel="stylesheet">
         <link href="css/design.css" rel="stylesheet">
         <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/gallery.prefixed.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header>
@@ -16,17 +17,36 @@
             <!--<h1>Sons of Anarchy</h1>-->
         </header>
         
-        <div id="slideshow">
-            <img src="res/img/slide/s1.jpg" alt="slideImg">
+        <div id="slideshow" class="gallery autoplay items-5">
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+            <div id="item-4" class="control-operator"></div>
+            <div id="item-5" class="control-operator"></div>            
+            
+            <figure class="item"><img src="res/img/slide/s1.jpg" alt="s1"></figure>
+            <figure class="item"><img src="res/img/slide/s2.jpg" alt="s2"></figure>
+            <figure class="item"><img src="res/img/slide/s3.jpg" alt="s3"></figure>
+            <figure class="item"><img src="res/img/slide/s4.jpg" alt="s4"></figure>
+            <figure class="item"><img src="res/img/slide/s5.jpg" alt="s5"></figure>
+            
+            <div class="controls">
+                <a href="#item-1" class="control-button">•</a>
+                <a href="#item-2" class="control-button">•</a>
+                <a href="#item-3" class="control-button">•</a>
+                <a href="#item-4" class="control-button">•</a>
+                <a href="#item-5" class="control-button">•</a>
+            </div>
         </div>
+        
         
         <nav>
             <ul class="soaFont">
                 <li>MENU</li>
-                <li>SINOPSIS</li>
-                <li>ACTORES</li>
-                <li>GALERIA</li>
-                <li>ACERCA</li>
+                <li><a href="index.html">SINOPSIS</a></li>
+                <li><a href="actors.html">ACTORES</a></li>
+                <li><a href="galery.html">GALERIA</a></li>
+                <li><a href="about.html">ACERCA</a></li>
             </ul>
         </nav>
         
