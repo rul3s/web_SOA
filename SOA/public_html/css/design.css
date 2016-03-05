@@ -32,12 +32,23 @@ section figure img{
     width: 60%;
 }
 
+div.actorDesc figure img{
+    width: 50%;
+}
+
 section figure figcaption{
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 footer{
     background: #777;
     text-align: center;
+}
+
+@media (min-width: 600px){
+    div.actorDesc figure img{
+        width: 100%;
+    }
+
 }
