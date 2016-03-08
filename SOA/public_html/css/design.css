@@ -28,10 +28,6 @@ section{
     padding: 2vw;
 }
 
-section figure img{
-    width: 60%;
-}
-
 div.actorDesc figure img{
     width: 50%;
 }
@@ -41,14 +37,44 @@ section figure figcaption{
     font-size: 0.7em;
 }
 
+section#main figure{
+    width: 60%;
+}
+
 footer{
     background: #777;
     text-align: center;
+}
+
+figure.mid{
+    margin: 5vh auto;
+    width: 60%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a.grey{
+    color: #cccccc;
 }
 
 @media (min-width: 600px){
     div.actorDesc figure img{
         width: 100%;
     }
+    
+    section#gallery{
+        text-align: center;
+    }
 
+    section#gallery figure{
+        transition: 500ms ease-in-out;
+        width: 40%;
+        display: inline-block;
+    }
+    
+    section#gallery figure:hover{
+        transform: scale(1.5);
+    }
 }

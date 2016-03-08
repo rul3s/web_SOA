@@ -49,6 +49,11 @@ img{
 
 figure{
     text-align: center;
+    margin: 0 auto;
+}
+
+figure img{
+    width: 100%;
 }
 
 @media (min-width: 600px){
